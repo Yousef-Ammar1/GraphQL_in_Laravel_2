@@ -13,5 +13,6 @@ type Post {
     author: User! @belongsTo
 }
 
+#import auth.graphql
 #import user.graphql
 #import post.graphql
